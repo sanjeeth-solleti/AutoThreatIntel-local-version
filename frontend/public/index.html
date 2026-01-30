@@ -330,7 +330,7 @@ CVE-2024-1234 vulnerability exploitation attempt detected`;
                     const geminiConfigured = data.services?.gemini_ai?.configured;
                     
                     if (geminiConfigured) {
-                        showStatus('success', '✓ Backend connected • Gemini AI ready');
+                        showStatus('success', '✓ Backend connected • Ready to Analyse Alerts');
                         document.getElementById('analyzeBtn').disabled = false;
                     } else {
                         showStatus('warning', '⚠ Backend connected but Gemini AI not configured. Add API key to backend/.env');
